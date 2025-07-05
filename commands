@@ -1,0 +1,8 @@
+
+# Debug build
+g++ main.cpp -DLOCAL -g
+./a.out    # runs with debug prints
+
+# Release / contest submission
+g++ main.cpp -O2          # no -DLOCAL, no -g
+./a.out    # runs silently and a bit faster
