@@ -49,9 +49,11 @@ ll powmod(ll a, ll e, ll m = MOD) {
 }
 
 
-ll solution(int n) {
-    
-    return 0;
+void solution(int n) {
+    int n;
+    cin >> n;
+    vector<int> a(n);
+    for (int &x : a) cin >> x;
 }
 
 /*  Main driver  */
@@ -59,10 +61,7 @@ int main() {
     int T = 1;
     if (!(cin >> T)) return 0;
     while (T--) {
-        int n;
-        cin >> n;
-
-        cout << solution(n);
+        solution(n);
     }
     return 0;
 }
